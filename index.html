@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technologies</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+</style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-route.min.js"></script>
+    <script src="application.js"></script>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="images/Angular.png" alt="Bootstrap" width="100" height="24">
+                  </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#!/home">Home</a></li>
+                    <li><a href="#!/courses">Courses</a></li>
+                    <li><a href="#!/community">Community</a></li>
+                    <li><a href="#!/contact">Contact Us</a></li>
+                    <li><a href="#!/about">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div ng-view></div>
+
+</body>
+
+</html>

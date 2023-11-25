@@ -1,0 +1,66 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: beige;
+}
+
+.container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Navbar Styles */
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-inverse {
+    background-color: #333;
+    border-color: #333;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+}
+
+/* Page Content Styles */
+.container {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+.social-icons{
+
+    gap: 5px;
+    border-radius: 8px;
+
+    background-color: bisque;
+
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+        color: #ffffff;
+    }
+}
